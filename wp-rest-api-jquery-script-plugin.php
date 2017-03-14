@@ -27,7 +27,7 @@ function wp_rest_api_jquery_script() {
 	wp_enqueue_script( 'wp-rest-api-jquery', plugins_url( basename( plugin_dir_path(__FILE__) ), basename( __FILE__ ) ) . '/wp-rest-api-jquery' . $suffix . '.js', array( 'jquery' ), false, true );
 
 	wp_localize_script( 'wp-rest-api-jquery', 'wprestapi_jquery_params', array(
-		'siteURL' => get_option( 'site_url' ),
+		'siteURL' => get_option( 'siteurl' ),
 		'nonce' => wp_create_nonce( 'wp_rest' ),
 	));
 }
