@@ -1,6 +1,6 @@
 # WordPress REST API jQuery Support
 
-This small plugin includes support for WordPress jQuery REST API Wrapper script. Once installed your site can use the [WordPress jQuery REST API Wrapper](https://github.com/seb86/WordPress-jQuery-REST-API-Wrapper) script.
+This small plugin includes support for WordPress REST API jQuery script. Once installed your site can use the [WordPress REST API jQuery](https://github.com/seb86/WordPress-REST-API-jQuery) script.
 
 The site url and nonce security is set for you. See below on how to use it.
 
