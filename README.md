@@ -9,7 +9,7 @@ Main requirement for the script to know where the REST API is connecting from.
 
 ```wprestapi_jquery_params.siteURL```
 
-### Nonce
+### Security Check
 Allows logged in users to access certain endpoints.
 
 ```wprestapi_jquery_params.nonce```
