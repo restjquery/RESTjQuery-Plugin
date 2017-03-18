@@ -3,7 +3,7 @@
  * Plugin Name: WordPress REST API jQuery Support
  * Plugin URI:  https://sebastiendumont.com
  * Version:     1.0
- * Description: Includes support for WordPress jQuery REST API Wrapper script.
+ * Description: Includes support for WordPress REST API jQuery script.
  * Author:      Sébastien Dumont
  * Author URI:  https://sebastiendumont.com
  *
@@ -27,7 +27,7 @@ function wp_rest_api_jquery_script() {
 	wp_enqueue_script( 'wp-rest-api-jquery', plugins_url( basename( plugin_dir_path(__FILE__) ), basename( __FILE__ ) ) . '/wp-rest-api-jquery' . $suffix . '.js', array( 'jquery' ), false, true );
 
 	wp_localize_script( 'wp-rest-api-jquery', 'wprestapi_jquery_params', array(
-		'siteURL' => get_option( 'siteurl' ),
+		'siteURL' => esc_url_raw( get_option( 'siteurl' ) ),
 		'nonce' => wp_create_nonce( 'wp_rest' ),
 	));
 }
