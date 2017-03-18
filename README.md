@@ -17,7 +17,7 @@ Allows logged in users to access certain endpoints.
 ### Example of using the two parameters.
 
 ```
-$('.app').wprestapi({
+restjQuery({
     siteUrl: wprestapi_jquery_params.siteURL,
     securityCheck: wprestapi_jquery_params.nonce
 });
