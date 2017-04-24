@@ -8,7 +8,7 @@
  * Author URI:  https://sebastiendumont.com
  *
  * Requires at least: 4.5
- * Tested up to: 4.7.3
+ * Tested up to: 4.7.4
  *
  * Copyright: © 2017 Sébastien Dumont
  * License: GNU General Public License v3.0
@@ -27,7 +27,7 @@ function wp_rest_api_jquery_script() {
 	wp_enqueue_script( 'wp-rest-api-jquery', plugins_url( basename( plugin_dir_path(__FILE__) ), basename( __FILE__ ) ) . '/wp-rest-api-jquery' . $suffix . '.js', array( 'jquery' ), false, true );
 
 	wp_localize_script( 'wp-rest-api-jquery', 'wprestapi_jquery_params', array(
-		'siteURL' => esc_url_raw( get_option( 'siteurl' ) ),
+		'site_url' => esc_url_raw( get_option( 'siteurl' ) ),
 		'nonce' => wp_create_nonce( 'wp_rest' ),
 	));
 }

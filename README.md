@@ -1,24 +1,20 @@
 # WordPress REST API jQuery Support
 
-This small plugin includes support for WordPress REST API jQuery script. Once installed your site can use the [WordPress REST API jQuery](https://github.com/seb86/WordPress-REST-API-jQuery) script.
+This small plugin includes support for WordPress REST API jQuery script. Once installed your site can use the [WordPress REST API jQuery](https://restjquery.com) script.
 
-The site url and nonce security is set for you. See below on how to use it.
-
-### Site URL
-Main requirement for the script to know where the REST API is connecting from.
-
-```wprestapi_jquery_params.siteURL```
+The nonce security is set for you. See below on how to use it.
 
 ### Security Check
 Allows logged in users to access certain endpoints.
 
-```wprestapi_jquery_params.nonce```
+Global parameter to use: `wprestapi_jquery_params.nonce`
 
-### Example of using the two parameters.
+Example of using the nonce parameter.
 
-```
+```javascript
 restjQuery({
-    siteUrl: wprestapi_jquery_params.siteURL,
-    securityCheck: wprestapi_jquery_params.nonce
+  nonce: wprestapi_jquery_params.nonce
 });
 ```
+
+See [Documentation](https://docs.restjquery.com/) for other parameters you can use.
