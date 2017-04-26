@@ -1,9 +1,9 @@
 === WordPress REST API jQuery Support ===
-Version: 1.0
 Author URI: https://sebastiendumont.com
 Author: Sébastien Dumont
 Contributors: sebd86
-Tags: jquery, support, client, api, json, REST, restapi
+Donate Link: https://restjquery.com
+Tags: jquery, support, client, api, json, rest, rest-api
 Requires at least: 4.5
 Tested up to: 4.7.4
 Stable Tag: 1.0
@@ -23,7 +23,7 @@ Global parameter to use: `wprestapi_jquery_params.nonce`
 
 Example of using the nonce parameter.
 
-```javascript
+```
 restjQuery({
   nonce: wprestapi_jquery_params.nonce
 });
