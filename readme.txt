@@ -1,35 +1,37 @@
-=== WordPress REST API jQuery Support ===
+=== RESTjQuery ===
 Author URI: https://sebastiendumont.com
 Author: Sébastien Dumont
 Contributors: sebd86
 Donate Link: https://restjquery.com
-Tags: jquery, support, client, api, json, rest, rest-api
+Tags: api, jquery, JSON, rest, rest-api, wp-api
 Requires at least: 4.5
-Tested up to: 4.7.4
-Stable Tag: 1.0
-License: GPL v2
+Tested up to: 5.1.1
+Requires PHP: 5.2.4
+Stable Tag: 1.0.0
+License: GPL v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This small plugin includes support for WordPress REST API jQuery script. Once installed your site can use the WordPress REST API jQuery script.
+This small plugin includes support for RESTjQuery script. Once installed your site can use the RESTjQuery script.
 
 == Description ==
 
-This small plugin includes support for WordPress REST API jQuery script. Once installed your site can use the WordPress REST API jQuery script.
+This small plugin includes support for RESTjQuery script. Once installed your site can use the RESTjQuery script.
 
 ### Security Check
 
-Allows logged in users to access certain endpoints.
+A security key is set for you and will be needed to enable logged in users to access certain endpoints such as posting a new post.
 
-Global parameter to use: `wprestapi_jquery_params.nonce`
+To enable access you need to use the `nonce` parameter like so.
 
-Example of using the nonce parameter.
+    restjQuery({
+    	nonce: wprestapi_jquery_params.nonce
+    });
 
-```
-restjQuery({
-  nonce: wprestapi_jquery_params.nonce
-});
-```
 
-See [Documentation](https://docs.restjquery.com/) for other parameters you can use.
+### How to use
+
+See the [documentation](https://docs.restjquery.com/) for a guide on using RESTjQuery.
+
 
 == Installation ==
 
@@ -37,7 +39,7 @@ See [Documentation](https://docs.restjquery.com/) for other parameters you can u
 
 Automatic installation is the easiest option as WordPress handles the file transfers itself and you don't even need to leave your web browser. To do an automatic install, log in to your WordPress admin panel, navigate to the Plugins menu and click Add New.
 
-In the search field type "WordPress REST API jQuery Support" and click Search Plugins. Once you've found the plugin you can view details about it such as the the point release, rating and description. Most importantly of course, you can install it by clicking _Install Now_.
+In the search field type "RESTjQuery" and click Search Plugins. Once you've found the plugin you can view details about it such as the the point release, rating and description. Most importantly of course, you can install it by clicking _Install Now_.
 
 = Manual installation =
 
@@ -49,5 +51,5 @@ The manual installation method involves downloading the plugin and uploading it 
 
 == Changelog ==
 
-= 1.0 - 24th April 2017 =
+= 1.0.0 - 24th April 2017 =
 * First release.
