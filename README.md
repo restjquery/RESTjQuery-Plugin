@@ -32,7 +32,7 @@ To enable access you need to use the `nonce` parameter like so.
 
 ```javascript
 restjQuery({
-  nonce: wprestapi_jquery_params.nonce
+  nonce: restjquery_params.nonce
 });
 ```
 

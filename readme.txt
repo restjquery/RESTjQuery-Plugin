@@ -4,7 +4,7 @@ Author: Sébastien Dumont
 Contributors: sebd86
 Donate Link: https://restjquery.com
 Tags: api, jquery, JSON, rest, rest-api, wp-api
-Requires at least: 4.5
+Requires at least: 4.4
 Tested up to: 5.1.1
 Requires PHP: 5.2.4
 Stable Tag: 1.0.0
@@ -24,7 +24,7 @@ A security key is set for you and will be needed to enable logged in users to ac
 To enable access you need to use the `nonce` parameter like so.
 
     restjQuery({
-    	nonce: wprestapi_jquery_params.nonce
+    	nonce: restjquery_params.nonce
     });
 
 
@@ -51,5 +51,9 @@ The manual installation method involves downloading the plugin and uploading it 
 
 == Changelog ==
 
-= 1.0.0 - 24th April 2017 =
-* First release.
+= 1.0.0 - ?? March 2019 =
+* Tweaked: Re-written the main plugin file.
+* Checked: Compatible with WordPress v5 and up
+
+= 1.0 - 24th April 2017 =
+* Initial release.
