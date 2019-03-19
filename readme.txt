@@ -11,7 +11,7 @@ Stable Tag: 1.0.0
 License: GPL v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This small plugin includes support for RESTjQuery script. Once installed your site can use the RESTjQuery script.
+Provides the RESTjQuery script to be used on the frontend of your WordPress site.
 
 == Description ==
 
