@@ -1,7 +1,8 @@
 .github/
 .github/issue_template.md
 .vscode/
-build
+releases/
 node_modules
 .DS_Store
 *.sh
+.wordpress-org
