@@ -51,9 +51,9 @@ The manual installation method involves downloading the plugin and uploading it 
 
 == Changelog ==
 
-= 1.0.0 - ?? March 2019 =
+= 1.0.0 - 20th March 2019 =
 * Tweaked: Re-written the main plugin file.
-* Checked: Compatible with WordPress v5 and up
+* Checked: Compatible with WordPress v5 and up.
 
 = 1.0 - 24th April 2017 =
 * Initial release.
