@@ -203,6 +203,7 @@ class RESTjQuery_Feedback {
 			width: 60px;
 		}
 		.notice.rest-jquery-notice .rest-jquery-notice-icon img {
+			font-size: 0px;
 			width: 64px;
 		}
 		.notice.rest-jquery-notice .rest-jquery-notice-content {
