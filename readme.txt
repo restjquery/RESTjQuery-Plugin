@@ -2,7 +2,7 @@
 Author URI: https://sebastiendumont.com
 Author: Sébastien Dumont
 Contributors: sebd86
-Donate Link: https://restjquery.com
+Donate Link: https://sebdumont.xyz/donate/
 Tags: api, jquery, JSON, rest, rest-api, wp-api
 Requires at least: 4.4
 Tested up to: 5.1.1
@@ -15,7 +15,7 @@ Provides the RESTjQuery script to be used on the frontend of your WordPress site
 
 == Description ==
 
-This small plugin includes support for RESTjQuery script. Once installed your site can use the RESTjQuery script.
+This small plugin includes support for [RESTjQuery script](https://restjquery.com/). Once installed your site can use the RESTjQuery script.
 
 ### Security Check
 
