@@ -71,7 +71,7 @@ Need help? This is a developer's portal for **RESTjQuery plugin** and should not
 
 ## 👍 Contribute
 
-If you or your company use **RESTjQuery** or appreciate the work I’m doing in open source, please consider supporting me directly so I can continue maintaining it and keep evolving the project.
+If you or your company use **RESTjQuery plugin** or appreciate the work I’m doing in open source, please consider supporting me directly so I can continue maintaining it and keep evolving the project.
 
 You'll be helping to ensure I can spend the time not just fixing bugs or releasing new versions, but also keeping the project afloat. Any contribution you make is a big help and is greatly appreciated.
 
