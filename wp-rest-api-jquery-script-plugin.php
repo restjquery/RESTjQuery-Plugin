@@ -175,7 +175,7 @@ if ( ! class_exists( 'RESTjQuery' ) ) {
 		public function enqueue_scripts() {
 			$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
 
-			wp_register_script( 'restjquery', RESTJQUERY_PLUGIN_URL . '/restjquery' . $suffix . '.js', array( 'jquery' ), self::$version, true );
+			wp_register_script( 'restjquery', RESTJQUERY_PLUGIN_URL . 'restjquery' . $suffix . '.js', array( 'jquery' ), self::$version, true );
 			wp_enqueue_script( 'restjquery' );
 
 			wp_localize_script( 'restjquery', 'restjquery_params', array(
