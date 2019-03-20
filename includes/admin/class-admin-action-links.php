@@ -39,7 +39,9 @@ class RESTjQuery_Action_Links {
 
 		if ( RESTJQUERY_PLUGIN_BASE === $plugin_file ) {
 			$row_meta = [
-				'review' => '<a href="' . esc_url( RESTJQUERY_REVIEW_URL ) . '" aria-label="' . esc_attr( __( 'Review RESTjQuery on WordPress.org', 'wp-rest-api-jquery-support' ) ) . '" target="_blank">' . __( 'Leave a Review', 'wp-rest-api-jquery-support' ) . '</a>',
+				'documentation' => '<a href="' . esc_url( 'https://docs.restjquery.com' ) . '" aria-label="' . esc_attr( __( 'View RESTjQuery Documentation', 'wp-rest-api-jquery-support' ) ) . '" target="_blank">' . __( 'Documentation', 'wp-rest-api-jquery-support' ) . '</a>',
+				'support'       => '<a href="' . esc_url( RESTJQUERY_SUPPORT_URL ) . '" aria-label="' . esc_attr( __( 'Get support via the community forums on WordPress.org', 'wp-rest-api-jquery-support' ) ) . '" target="_blank">' . __( 'Support', 'wp-rest-api-jquery-support' ) . '</a>',
+				'review'        => '<a href="' . esc_url( RESTJQUERY_REVIEW_URL ) . '" aria-label="' . esc_attr( __( 'Review RESTjQuery on WordPress.org', 'wp-rest-api-jquery-support' ) ) . '" target="_blank">' . __( 'Leave a Review', 'wp-rest-api-jquery-support' ) . '</a>',
 			];
 
 			$plugin_meta = array_merge( $plugin_meta, $row_meta );
