@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: "
 "https://github.com/restjquery/RESTjQuery-Plugin/issues\n"
-"POT-Creation-Date: 2019-03-19 19:31:42+00:00\n"
+"POT-Creation-Date: 2019-03-20 17:34:15+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,10 +16,26 @@ msgstr ""
 "X-Generator: grunt-wp-i18n 1.0.3\n"
 
 #: includes/admin/class-admin-action-links.php:42
-msgid "Review RESTjQuery on WordPress.org"
+msgid "View RESTjQuery Documentation"
 msgstr ""
 
 #: includes/admin/class-admin-action-links.php:42
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/class-admin-action-links.php:43
+msgid "Get support via the community forums on WordPress.org"
+msgstr ""
+
+#: includes/admin/class-admin-action-links.php:43
+msgid "Support"
+msgstr ""
+
+#: includes/admin/class-admin-action-links.php:44
+msgid "Review RESTjQuery on WordPress.org"
+msgstr ""
+
+#: includes/admin/class-admin-action-links.php:44
 #: includes/admin/class-admin-feedback.php:291
 msgid "Leave a Review"
 msgstr ""
