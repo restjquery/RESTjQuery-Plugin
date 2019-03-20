@@ -224,13 +224,13 @@ class RESTjQuery_Feedback {
 			height: auto;
 			line-height: 20px;
 			background: #754ea2;
-			border-color: #65c8a1 #65c8a1 #65c8a1;
-			-webkit-box-shadow: 0 1px 0 #65c8a1;
-			box-shadow: 0 1px 0 #65c8a1;
-			text-shadow: 0 -1px 1px #3ca179, 1px 0 1px #3ca179, 0 1px 1px #3ca179, -1px 0 1px #3ca179;
+			border-color: #8260aa #8260aa #8260aa;
+			-webkit-box-shadow: 0 1px 0 #8260aa;
+			box-shadow: 0 1px 0 #8260aa;
+			text-shadow: 0 -1px 1px #4d2e72, 1px 0 1px #4d2e72, 0 1px 1px #4d2e72, -1px 0 1px #4d2e72;
 		}
 		.notice.rest-jquery-notice .rest-jquery-install-now .rest-jquery-install-button:hover {
-			background: #65c8a1;
+			background: #8260aa;
 		}
 		.notice.rest-jquery-notice a.no-thanks {
 			display: block;
