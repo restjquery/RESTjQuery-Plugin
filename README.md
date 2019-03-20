@@ -13,7 +13,7 @@
 **Contributors:** sebd86  
 **Donate link:** https://sebdumont.xyz/donate/  
 **Tags:** api, jquery, JSON, rest, rest-api, wp-api  
-**Requires at least:** 4.5  
+**Requires at least:** 4.4  
 **Requires PHP:** 5.6  
 **Tested up to:** 5.1.1  
 **Stable tag:** 1.0.0  
